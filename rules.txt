@@ -1,0 +1,19 @@
+No CRB damage
+"ecplus_crb_tree_inspection_ctrl7"  IS  NULL OR
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'no CRB damage' 
+
+Old damage
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'old damage' OR 
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'old damage,bore hole' OR
+"ecplus_crb_tree_inspection_ctrl7"  LIKE  'bore hole' 
+
+New damage
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'new damage' OR
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'new damage,bore hole' 
+
+New and old damage
+ "ecplus_crb_tree_inspection_ctrl7"  LIKE 'new damage,old damage,bore hole'  OR
+ "ecplus_crb_tree_inspection_ctrl7"  LIKE 'new damage,old damage' 
+
+Dead standig palm
+"ecplus_crb_tree_inspection_ctrl7" LIKE  'standing dead palm (snag)' 

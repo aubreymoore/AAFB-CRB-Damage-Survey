@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+ <query>
+   <shortdescription>Tree inspection</shortdescription>
+   <description>Tree inspection</description>
+   <databasetype>MYSQL</databasetype>
+   <databasehost>mysql.guaminsects.net</databasehost>
+   <databaseport>3306</databaseport>
+   <databasename>oryctes</databasename>
+   <databaseusername>readonlyguest</databaseusername>
+   <databasepassword>readonlypassword</databasepassword>
+   <sqlstatement>SELECT * FROM crb_tree_inspection
+   WHERE latitude BETWEEN 13.2285 AND 13.6611
+   AND longitude BETWEEN 144.6134 AND 144.9643</sqlstatement>
+   <autoconnect>true</autoconnect>
+ </query>
+  <query>
+   <shortdescription>Tree inspection bad points</shortdescription>
+   <description>Tree inspection points outside the Guam bounding box</description>
+   <databasetype>MYSQL</databasetype>
+   <databasehost>mysql.guaminsects.net</databasehost>
+   <databaseport>3306</databaseport>
+   <databasename>oryctes</databasename>
+   <databaseusername>readonlyguest</databaseusername>
+   <databasepassword>readonlypassword</databasepassword>
+   <sqlstatement>SELECT * FROM crb_tree_inspection
+   WHERE latitude NOT BETWEEN 13.2285 AND 13.6611
+   OR longitude NOT BETWEEN 144.6134 AND 144.9643</sqlstatement>
+   <autoconnect>true</autoconnect>
+  </query>
+ <query>
+   <shortdescription>Breeding sites</shortdescription>
+   <description>Breeding sites</description>
+   <databasetype>MYSQL</databasetype>
+   <databasehost>mysql.guaminsects.net</databasehost>
+   <databaseport>3306</databaseport>
+   <databasename>oryctes</databasename>
+   <databaseusername>readonlyguest</databaseusername>
+   <databasepassword>readonlypassword</databasepassword>
+   <sqlstatement>SELECT * FROM crb_breeding_sites
+   WHERE latitude BETWEEN 13.2285 AND 13.6611
+   AND longitude BETWEEN 144.6134 AND 144.9643</sqlstatement>
+   <autoconnect>true</autoconnect>
+ </query>
+  <query>
+   <shortdescription>Breeding sites bad points</shortdescription>
+   <description>Breeding site points outside the Guam bounding box</description>
+   <databasetype>MYSQL</databasetype>
+   <databasehost>mysql.guaminsects.net</databasehost>
+   <databaseport>3306</databaseport>
+   <databasename>oryctes</databasename>
+   <databaseusername>readonlyguest</databaseusername>
+   <databasepassword>readonlypassword</databasepassword>
+   <sqlstatement>SELECT * FROM crb_breeding_sites
+   WHERE latitude NOT BETWEEN 13.2285 AND 13.6611
+   OR longitude NOT BETWEEN 144.6134 AND 144.9643</sqlstatement>
+   <autoconnect>true</autoconnect>
+ </query>
+</doc>

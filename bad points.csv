@@ -1,0 +1,11 @@
+wkt_geom	crb_tree_inspection_key	DeviceID	uploaded	date	latitude	longitude	palm_type	grouping	crb_damage	notes
+POINT(144.92857399999999757 13.37449999999999939)	eb5524e0-5ec7-4475-c72c-a8bc3eb5898d	web	2015-02-19 10:41:49	02/16/2015	13.3745	144.928574	coconut	single	standing dead palm (snag)	2; RJ, Marty; snag needs to be removed, possible future breedin
+POINT(144.88650499999999965 13.57790299999999917)	3d1121fc-1f26-49b5-bffc-206f73e655ad	c188b5c88c9bf72d	2015-02-26 03:54:26	02/26/2015	13.577903	144.886505	coconut	group	new damage,old damage,bore hole	2 coconut trees
+POINT(144.94112999999998692 13.56709999999999994)	459a8a40-29a8-43d9-9f0a-c1e58256f208	web	2015-02-20 04:59:02	02/18/2015	13.5671	144.94113	coconut	single	stump	(DOC 84); STUMP
+POINT(144.88645900000000211 13.57798599999999922)	12ba211b-907f-4eea-9e73-ab9ab9086673	f180520b7f44621b	2015-02-26 04:29:11	02/26/2015	13.577986	144.886459	coconut	single	new damage,old damage,bore hole	
+wkt_geom	crb_tree_inspection_key	DeviceID	uploaded	date	latitude	longitude	palm_type	grouping	crb_damage	notes
+POINT(144.561522999999994 13.57418000000000013)	9cc1836a-3587-4887-a6d8-3040c1c0f6f3	web	2015-02-20 03:31:12	02/17/2015	13.57418	144.561523	other palm	single	no CRB damage	*(DOC 30)
+POINT(144.93626599999998916 13.75558299999999967)	3e0dd388-0954-4ea8-8422-0b9520bc07da	web	2015-02-22 03:31:47	02/17/2015	13.755583	144.936266	coconut	single	new damage	(DOC 41); 4 MONTHS
+POINT(14.92389999999999972 13.57126000000000055)	1ff13119-2688-4f5e-b424-1ad9844ae46a	web	2015-02-22 04:33:41	02/17/2015	13.57126	14.9239	coconut	single	no CRB damage	*(DOC 195); NO DAMAGE
+
+
