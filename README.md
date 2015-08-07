@@ -16,7 +16,7 @@ The free, open-source Quantum GIS v2.8.1 was used to map damage levels for trees
 
 * The resulting map was exported as a [PDF]( https://github.com/aubreymoore/AAFB-CRB-Damage-Survey/blob/master/AAFB-CRB-Damage-May2015.pdf ).
 
-![map](https://github.com/aubreymoore/AAFB-CRB-Damage-Survey/blob/master/AAFB-CRB-Damage-May2015.pdf)
+<a img scr="https://github.com/aubreymoore/AAFB-CRB-Damage-Survey/blob/master/AAFB-CRB-Damage-May2015.pdf">
 
 ## Google Earth Map
 Unfortunately, with the current version v2.8.1, all styling is lost when exporting point layers to KML or KMZ files. As a work around, an [IPython notebook]( https://github.com/aubreymoore/AAFB-CRB-Damage-Survey/blob/master/make-kml.ipynb ) was developed to do the job :
